@@ -39,3 +39,17 @@ footer {
 main {
     flex: 1;
 }
+
+.books-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(max(175px,14%), 1fr));
+    gap: 8px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.block {
+    background-color: black;
+    aspect-ratio: 0.75;
+    border-radius: 12px;
+}
